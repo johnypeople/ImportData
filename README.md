@@ -50,7 +50,9 @@ Para executar o script, você precisará das bibliotecas listadas abaixo. Elas p
 ### Lista de Dependências:
 
 ```numpy```: Utilizado para operações matemáticas, como o cálculo do módulo em dB dos parâmetros S.
+
 ```pandas```: Facilita a manipulação e organização dos dados, além de permitir a criação de planilhas Excel com múltiplas abas.
+
 ```openpyxl```: Necessário para salvar os dados em arquivos Excel com suporte para várias abas.
 
 Para instalar todas as dependências de uma vez, execute:
