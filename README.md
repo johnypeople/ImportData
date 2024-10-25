@@ -1,6 +1,6 @@
 ## Descrição do Script
 Este script em Python lê todos os arquivos no formato ```.s2p``` de uma pasta especificada, extrai os parâmetros S 
-(como 𝑆11, 𝑆21, 𝑆12, 𝑆22) e armazena os dados em um arquivo Excel com duas abas diferentes:
+(como ```S11```, ```S21```, ```S12```, ```S22```) e armazena os dados em um arquivo Excel com duas abas diferentes:
 
 - **Aba 1: Valores Magnitude e Fase:** Contém as colunas de frequência, parte real e parte imaginária dos parâmetros S escolhidos para cada arquivo .s2p.
 - **Aba 2: Valores em dB:** Contém as colunas de frequência e o módulo do parâmetro S escolhido, 
@@ -37,7 +37,7 @@ de dispositivos de duas portas (como ```S11```, ```S21```, ```S12```, ```S22```)
 ```
 caminho_pasta = 'caminho/para/sua/pasta'
 nome_excel = 'resultados_s2p.xlsx'
-s_param = 'S11'  # Escolha entre ```S11```, ```S21```, ```S12```, ou ```S22```
+s_param = 'S11'  # Escolha entre S11, S21, S12, ou S22
 salvar_para_excel(caminho_pasta, nome_excel, s_param)
 ```
 
