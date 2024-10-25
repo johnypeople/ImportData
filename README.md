@@ -45,9 +45,16 @@ O arquivo ```resultados_s2p.xlsx``` será gerado contendo as abas "Valores Magni
 
 ## Dependências:
 
-- ```pandas```: para manipulação de DataFrames e salvar o arquivo Excel.
-Você pode instalar o ```pandas``` com:
+Para executar o script, você precisará das bibliotecas listadas abaixo. Elas podem ser instaladas executando o comando pip install -r requirements.txt no diretório onde o arquivo requirements.txt está localizado.
+
+### Lista de Dependências:
+
+```numpy```: Utilizado para operações matemáticas, como o cálculo do módulo em dB dos parâmetros S.
+```pandas```: Facilita a manipulação e organização dos dados, além de permitir a criação de planilhas Excel com múltiplas abas.
+```openpyxl```: Necessário para salvar os dados em arquivos Excel com suporte para várias abas.
+
+Para instalar todas as dependências de uma vez, execute:
 
 ```
-pip install pandas
+pip install -r requirements.txt
 ```
