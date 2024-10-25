@@ -2,15 +2,15 @@
 Este script em Python lê todos os arquivos no formato ```.s2p``` de uma pasta especificada, extrai os parâmetros S 
 (como ```S11```, ```S21```, ```S12```, ```S22```) e armazena os dados em um arquivo Excel com duas abas diferentes:
 
-- **Aba 1: Valores Magnitude e Fase:** Contém as colunas de frequência, parte real e parte imaginária dos parâmetros S escolhidos para cada arquivo .s2p.
+- **Aba 1: Valores Magnitude e Fase:** Contém as colunas de frequência, parte real e parte imaginária dos parâmetros S escolhidos para cada arquivo ```.s2p```.
 - **Aba 2: Valores em dB:** Contém as colunas de frequência e o módulo do parâmetro S escolhido, 
-convertido em decibéis (10×log(𝑆real)).
+convertido em decibéis (```10×log(𝑆real)```).
 
 ### Funcionalidades:
 1. **Leitura de Arquivos** ```.s2p```: O script lê arquivos ```.s2p```, que são comumente usados para armazenar parâmetros S 
 de dispositivos de duas portas (como ```S11```, ```S21```, ```S12```, ```S22```).
 2. **Extração de Parâmetros S**: Para cada arquivo, o usuário pode escolher qual parâmetro S será extraído 
-(por exemplo, 𝑆11, 𝑆21, 𝑆12, 𝑆22).
+(por exemplo, ```S11```, ```S21```, ```S12```, ```S22```).
 3. **Cálculo de Módulo em dB:** Além de extrair os valores magnitude e fase dos parâmetros S, o script também calcula o módulo desses valores em decibéis (dB).
 4. **Salvamento em Planilha Excel:** Os dados extraídos são organizados em duas abas de uma planilha Excel:
     - **Aba "Valores Magnitude e Fase":** Contém a frequência, as partes real e imaginária dos parâmetros S para cada arquivo.
