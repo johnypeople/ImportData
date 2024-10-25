@@ -1,5 +1,5 @@
 ## Descrição do Script
-Este script em Python lê todos os arquivos no formato '''.s2p''' de uma pasta especificada, extrai os parâmetros S 
+Este script em Python lê todos os arquivos no formato ```.s2p``` de uma pasta especificada, extrai os parâmetros S 
 (como 𝑆11, 𝑆21, 𝑆12, 𝑆22) e armazena os dados em um arquivo Excel com duas abas diferentes:
 
 - **Aba 1: Valores Magnitude e Fase:** Contém as colunas de frequência, parte real e parte imaginária dos parâmetros S escolhidos para cada arquivo .s2p.
@@ -7,7 +7,7 @@ Este script em Python lê todos os arquivos no formato '''.s2p''' de uma pasta e
 convertido em decibéis (10×log(𝑆real)).
 
 # Funcionalidades:
-1. **Leitura de Arquivos** '''.s2p''': O script lê arquivos '''.s2p''', que são comumente usados para armazenar parâmetros S 
+1. **Leitura de Arquivos** ```.s2p```: O script lê arquivos '''.s2p''', que são comumente usados para armazenar parâmetros S 
 de dispositivos de duas portas (como 𝑆11, 𝑆21, 𝑆12, 𝑆22).
 2. **Extração de Parâmetros S**: Para cada arquivo, o usuário pode escolher qual parâmetro S será extraído 
 (por exemplo, 𝑆11, 𝑆21, 𝑆12, 𝑆22).
